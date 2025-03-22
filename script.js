@@ -104,3 +104,7 @@ let word3 = "is";
 let fullName = `${word1} ${word2} ${word3} Viktor`;
 
 console.log(fullName);
+
+let userName = `Олександр`;
+let payment = 300;
+alert(`Дякуемо ${userName} До сплати ${payment} гривень`);
