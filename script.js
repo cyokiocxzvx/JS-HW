@@ -102,51 +102,157 @@
 // alert(`Дякуемо ${userName} До сплати ${payment} гривень`);
 
 // =============================================================HW-4-===============================================================================
-let text1 = "Hello";
-let text2 = "World";
-if (text1 !== "" && text2 !== "") {
-  console.log("Обидва поля заповнені");
-} else {
-  console.log("Не всі поля заповнені");
+// let text1 = "Hello";
+// let text2 = "World";
+// if (text1 !== "" && text2 !== "") {
+//   console.log("Обидва поля заповнені");
+// } else {
+//   console.log("Не всі поля заповнені");
+// }
+// let number1 = 5;
+// let number2 = 8;
+// let sum = number1 + number2;
+
+// if (sum > 10) {
+//   console.log("Сума більша за 10");
+// } else {
+//   console.log("Сума менша або дорівнює 10");
+// }
+
+// let text = "Мова програмування JavaScript дуже популярна";
+
+// if (text.includes("JavaScript")) {
+//   console.log("Текст містить слово JavaScript");
+// } else {
+//   console.log("Текст не містить слово JavaScript");
+// }
+
+
+// let number = 15;
+
+// if (number > 10 && number < 20) {
+//   console.log("Число входить в діапазон від 10 до 20");
+// } else {
+//   console.log("Число не входить в діапазон від 10 до 20");
+// }
+
+
+// let name = "Анна";
+// let email = "anna@example.com";
+// let password = "123456";
+
+// let isNameValid = name.length >= 3;
+// let isEmailValid = email.includes("@") && email.indexOf(".") > email.indexOf("@");
+// let isPasswordValid = password.length >= 6;
+
+// if (isNameValid && isEmailValid && isPasswordValid) {
+//   console.log("Перенаправлення на іншу сторінку");
+// } else {
+//   console.log("Помилка: неправильне заповнення");
+// }
+
+let drink = "Чай"; 
+
+switch (drink) {
+  case "Кава":
+    console.log("Ви обрали каву.");
+    break;
+  case "Чай":
+    console.log("Ви обрали чай.");
+    break;
+  case "Сік":
+    console.log("Ви обрали сік.");
+    break;
+  default:
+    console.log("Невідомий напій.");
 }
-let number1 = 5;
-let number2 = 8;
-let sum = number1 + number2;
-
-if (sum > 10) {
-  console.log("Сума більша за 10");
-} else {
-  console.log("Сума менша або дорівнює 10");
-}
-
-let text = "Мова програмування JavaScript дуже популярна";
-
-if (text.includes("JavaScript")) {
-  console.log("Текст містить слово JavaScript");
-} else {
-  console.log("Текст не містить слово JavaScript");
-}
 
 
-let number = 15;
+let day = "Субота";
 
-if (number > 10 && number < 20) {
-  console.log("Число входить в діапазон від 10 до 20");
-} else {
-  console.log("Число не входить в діапазон від 10 до 20");
+switch (day.toLowerCase()) {
+  case "понеділок":
+  case "вівторок":
+  case "середа":
+  case "четвер":
+  case "п’ятниця":
+    console.log("Це робочий день.");
+    break;
+  case "субота":
+  case "неділя":
+    console.log("Це вихідний.");
+    break;
+  default:
+    console.log("Невідомий день тижня.");
 }
 
 
-let name = "Анна";
-let email = "anna@example.com";
-let password = "123456";
+let month = 4; 
 
-let isNameValid = name.length >= 3;
-let isEmailValid = email.includes("@") && email.indexOf(".") > email.indexOf("@");
-let isPasswordValid = password.length >= 6;
+switch (month) {
+  case 12:
+  case 1:
+  case 2:
+    console.log("Зима");
+    break;
+  case 3:
+  case 4:
+  case 5:
+    console.log("Весна");
+    break;
+  case 6:
+  case 7:
+  case 8:
+    console.log("Літо");
+    break;
+  case 9:
+  case 10:
+  case 11:
+    console.log("Осінь");
+    break;
+  default:
+    console.log("Невірний номер місяця.");
+}
 
-if (isNameValid && isEmailValid && isPasswordValid) {
-  console.log("Перенаправлення на іншу сторінку");
-} else {
-  console.log("Помилка: неправильне заповнення");
+
+let color = "жовтий"; 
+
+switch (color.toLowerCase()) {
+  case "червоний":
+    console.log("СТОП");
+    break;
+  case "зелений":
+    console.log("ЙТИ");
+    break;
+  case "жовтий":
+    console.log("Чекати");
+    break;
+  default:
+    console.log("Невідомий колір.");
+}
+
+
+let number1 = 10;
+let number2 = 0;
+let operator = "/"; 
+
+switch (operator) {
+  case "+":
+    console.log("Результат: " + (number1 + number2));
+    break;
+  case "-":
+    console.log("Результат: " + (number1 - number2));
+    break;
+  case "*":
+    console.log("Результат: " + (number1 * number2));
+    break;
+  case "/":
+    if (number2 === 0) {
+      console.log("Помилка: ділення на нуль!");
+    } else {
+      console.log("Результат: " + (number1 / number2));
+    }
+    break;
+  default:
+    console.log("Невідомий оператор.");
 }
