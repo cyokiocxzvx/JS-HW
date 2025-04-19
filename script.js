@@ -151,108 +151,156 @@
 //   console.log("Помилка: неправильне заповнення");
 // }
 
-let drink = "Чай"; 
+// let drink = "Чай";
 
-switch (drink) {
-  case "Кава":
-    console.log("Ви обрали каву.");
-    break;
-  case "Чай":
-    console.log("Ви обрали чай.");
-    break;
-  case "Сік":
-    console.log("Ви обрали сік.");
-    break;
-  default:
-    console.log("Невідомий напій.");
-}
-
-
-let day = "Субота";
-
-switch (day.toLowerCase()) {
-  case "понеділок":
-  case "вівторок":
-  case "середа":
-  case "четвер":
-  case "п’ятниця":
-    console.log("Це робочий день.");
-    break;
-  case "субота":
-  case "неділя":
-    console.log("Це вихідний.");
-    break;
-  default:
-    console.log("Невідомий день тижня.");
-}
+// switch (drink) {
+//   case "Кава":
+//     console.log("Ви обрали каву.");
+//     break;
+//   case "Чай":
+//     console.log("Ви обрали чай.");
+//     break;
+//   case "Сік":
+//     console.log("Ви обрали сік.");
+//     break;
+//   default:
+//     console.log("Невідомий напій.");
+// }
 
 
-let month = 4; 
+// let day = "Субота";
 
-switch (month) {
-  case 12:
-  case 1:
-  case 2:
-    console.log("Зима");
-    break;
-  case 3:
-  case 4:
-  case 5:
-    console.log("Весна");
-    break;
-  case 6:
-  case 7:
-  case 8:
-    console.log("Літо");
-    break;
-  case 9:
-  case 10:
-  case 11:
-    console.log("Осінь");
-    break;
-  default:
-    console.log("Невірний номер місяця.");
-}
+// switch (day.toLowerCase()) {
+//   case "понеділок":
+//   case "вівторок":
+//   case "середа":
+//   case "четвер":
+//   case "п’ятниця":
+//     console.log("Це робочий день.");
+//     break;
+//   case "субота":
+//   case "неділя":
+//     console.log("Це вихідний.");
+//     break;
+//   default:
+//     console.log("Невідомий день тижня.");
+// }
 
 
-let color = "жовтий"; 
+// let month = 4;
 
-switch (color.toLowerCase()) {
-  case "червоний":
-    console.log("СТОП");
-    break;
-  case "зелений":
-    console.log("ЙТИ");
-    break;
-  case "жовтий":
-    console.log("Чекати");
-    break;
-  default:
-    console.log("Невідомий колір.");
-}
+// switch (month) {
+//   case 12:
+//   case 1:
+//   case 2:
+//     console.log("Зима");
+//     break;
+//   case 3:
+//   case 4:
+//   case 5:
+//     console.log("Весна");
+//     break;
+//   case 6:
+//   case 7:
+//   case 8:
+//     console.log("Літо");
+//     break;
+//   case 9:
+//   case 10:
+//   case 11:
+//     console.log("Осінь");
+//     break;
+//   default:
+//     console.log("Невірний номер місяця.");
+// }
 
 
-let number1 = 10;
-let number2 = 0;
-let operator = "/"; 
+// let color = "жовтий";
 
-switch (operator) {
-  case "+":
-    console.log("Результат: " + (number1 + number2));
-    break;
-  case "-":
-    console.log("Результат: " + (number1 - number2));
-    break;
-  case "*":
-    console.log("Результат: " + (number1 * number2));
-    break;
-  case "/":
-    if (number2 === 0) {
-      console.log("Помилка: ділення на нуль!");
-    } else {
-      console.log("Результат: " + (number1 / number2));
-    }
-    break;
-  default:
-    console.log("Невідомий оператор.");
+// switch (color.toLowerCase()) {
+//   case "червоний":
+//     console.log("СТОП");
+//     break;
+//   case "зелений":
+//     console.log("ЙТИ");
+//     break;
+//   case "жовтий":
+//     console.log("Чекати");
+//     break;
+//   default:
+//     console.log("Невідомий колір.");
+// }
+
+
+// let number1 = 10;
+// let number2 = 0;
+// let operator = "/";
+
+// switch (operator) {
+//   case "+":
+//     console.log("Результат: " + (number1 + number2));
+//     break;
+//   case "-":
+//     console.log("Результат: " + (number1 - number2));
+//     break;
+//   case "*":
+//     console.log("Результат: " + (number1 * number2));
+//     break;
+//   case "/":
+//     if (number2 === 0) {
+//       console.log("Помилка: ділення на нуль!");
+//     } else {
+//       console.log("Результат: " + (number1 / number2));
+//     }
+//     break;
+//   default:
+//     console.log("Невідомий оператор.");
+// }
+// ===================================================================================HW-5=========================================================================================
+// let i = 1
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+  
+// }
+// for (let i = 2; i <= 20; i += 2) {
+ 
+  
+//   if (i % 2 === 1) {
+//     continue;
+//   }
+//   console.log(i);
+  
+// }
+
+// for (let i = 1; i <= 10; i += 1) {
+//   console.log(`7 x ${i} = ${7 * i }`);
+  
+// }
+// let n = Number(prompt("Введіть число"));
+
+
+// for (let i = 0; ; i++) {
+//     if (i >= n) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// for (let i = 1; i <= 100; i++) {
+//   if (i % 7 === 1) {
+//     break;
+//   }
+//   console.log(i);
+  
+// }
+let i = 1;
+while (i <= 20) {
+  if (i % 3 === 0) {
+    i++;
+    continue;
+  }
+  console.log(i);
+  i++;
+  
 }
