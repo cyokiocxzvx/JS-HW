@@ -257,43 +257,43 @@
 //     console.log("Невідомий оператор.");
 // }
 // ===================================================================================HW-5=========================================================================================
-// let i = 1
-// while (i <= 10) {
-//   console.log(i);
-//   i++;
+let i = 1
+while (i <= 10) {
+  console.log(i);
+  i++;
   
-// }
-// for (let i = 2; i <= 20; i += 2) {
+}
+for (let i = 2; i <= 20; i += 2) {
  
   
-//   if (i % 2 === 1) {
-//     continue;
-//   }
-//   console.log(i);
+  if (i % 2 === 1) {
+    continue;
+  }
+  console.log(i);
   
-// }
+}
 
-// for (let i = 1; i <= 10; i += 1) {
-//   console.log(`7 x ${i} = ${7 * i }`);
+for (let i = 1; i <= 10; i += 1) {
+  console.log(`7 x ${i} = ${7 * i }`);
   
-// }
-// let n = Number(prompt("Введіть число"));
+}
+let n = Number(prompt("Введіть число"));
 
 
-// for (let i = 0; ; i++) {
-//     if (i >= n) {
-//         break;
-//     }
-//     console.log(i);
-// }
+for (let i = 0; ; i++) {
+    if (i >= n) {
+        break;
+    }
+    console.log(i);
+}
 
-// for (let i = 1; i <= 100; i++) {
-//   if (i % 7 === 1) {
-//     break;
-//   }
-//   console.log(i);
+for (let i = 1; i <= 100; i++) {
+  if (i % 7 === 1) {
+    break;
+  }
+  console.log(i);
   
-// }
+}
 let i = 1;
 while (i <= 20) {
   if (i % 3 === 0) {
